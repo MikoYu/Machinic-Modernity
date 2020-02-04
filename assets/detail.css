@@ -1,0 +1,122 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 60% auto;
+}
+
+
+#left-column {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vw;
+}
+
+#right-column {
+  position: relative;
+  margin-top: 50px;
+}
+
+.detail-descriptions {
+
+}
+
+.references {
+  margin-left: 20px;
+}
+
+#detail-diagram {
+  display: block;
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  background-blend-mode: multiply;
+
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 10000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 10000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 10000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg);}
+}
+
+.detail-images {
+  width: 60vw;
+}
+
+.references > h3 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.references > p, .notes {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+/* .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+} */
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active, .collapsible:hover {
+  background-color: #ccc;
+} */
+
+/* Style the collapsible content. Note: hidden by default */
+/* .collapsible-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+} */
+
+
+#links-top {
+  position: fixed;
+  bottom: 40px;
+  right: 100px;
+
+}

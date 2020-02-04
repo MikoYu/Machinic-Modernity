@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: normal;
+  margin: 10px 20px 150px 20px;
+  padding: 40px;
+  cursor: default;
+}
+
+p, h2, h3, h4, .links {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  padding-top: 40px;
+  background-color: black;
+  width: 100vw;
+  margin: 0;
+  z-index: 100;
+}
+
+.link-wraps {
+  position: fixed;
+  top: 85px;
+  right: 100px;
+}
+.sec {
+  margin-top: 80px;
+}
+
+.allcap {
+  text-transform: uppercase;
+}
+
+.links {
+  text-transform: capitalize;
+  background-color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.h2 {
+
+}
+
+
+.h3 {
+
+}
